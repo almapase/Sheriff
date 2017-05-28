@@ -1,0 +1,16 @@
+//= require bootstrap.min.js
+//= require jquery.easing.min.js
+//= require pace.min.js
+//= require owl-carousel2/owl.carousel.min.js
+//= require sky-forms-pro/skyforms/js/jquery.form.min.js
+//= require sky-forms-pro/skyforms/js/jquery.validate.min.js
+//= require jquery.cubeportfolio.min.js
+//= require modernizr.js
+//= require jquery.backstretch.min.js
+//= require one.app.js
+//= require owl2-carousel-v1.js
+//= require owl2-carousel-v2.js
+//= require owl2-carousel-v3.js
+//= require cube-portfolio.js
+//= require contact.js
+//= require promo.js

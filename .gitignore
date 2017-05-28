@@ -16,4 +16,10 @@
 !/log/.keep
 /tmp
 
+# System file
 */.keep
+*/.DS_Store
+/.keep
+/.DS_Store
+.keep
+.DS_Store
