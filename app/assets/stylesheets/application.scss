@@ -10,13 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require bootstrap.min
+ *= require bootstrap
  *= require app
  *= require blocks
  *= require one.style
  *= require animate
- *= require line-icons/line-icons
- *= require font-awesome/css/font-awesome.min
+ *= require line-icons
+ *= require font-awesome
  *= require owl-carousel2/assets/owl.carousel
  *= require cube-portfolio/cubeportfolio/css/cubeportfolio.min
  *= require cube-portfolio/cubeportfolio/custom/custom-cubeportfolio
