@@ -1,0 +1,30 @@
+/*
+ * This is a manifest file that'll be compiled into application, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require bootstrap
+ *= require app
+ *= require blocks
+ *= require one.style
+ *= require animate
+ *= require line-icons
+ *= require font-awesome
+ *= require owl-carousel2/assets/owl.carousel
+ *= require cube-portfolio/cubeportfolio/css/cubeportfolio.min
+ *= require cube-portfolio/cubeportfolio/custom/custom-cubeportfolio
+ *= require hover-effects/css/custom-hover-effects
+ *= require sky-forms-pro/skyforms/css/sky-forms
+ *= require sky-forms-pro/skyforms/custom/custom-sky-forms
+ *= require pace/pace-flash
+ *= require construction.style
+ *= require global
+ *= require custom
+ */

@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 9]> <html lang="es" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->
 <head>
   <title>Sheriff</title>
+
+	<!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="<%= image_url 'favicon.ico' %>">
+
+  <!-- Web Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700' rel='stylesheet' type='text/css'>	<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
+  </head>
+  <body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery font-main promo-padding-top">
 
-<%= yield %>
+  <%= yield %>
 
+  <%= javascript_include_tag 'home' %>
+  <script>
+		$(function() {
+			App.init();
+			Owl2Carouselv1.initOwl2Carouselv1();
+			Owl2Carouselv2.initOwl2Carouselv2();
+			Owl2Carouselv3.initOwl2Carouselv3();
+			ContactForm.initContactForm();
+		});
+  </script>
 </body>
 </html>
