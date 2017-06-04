@@ -27,10 +27,60 @@
 ---------------------------------------------------- */
 
 .panel-body li {
-    line-height: 1.7;
-    font-size: 14px;
-    color: #a7a7a7;
-    margin-bottom: 0;
+  line-height: 1.7;
+  font-size: 14px;
+  color: #a7a7a7;
+  margin-bottom: 0;
+}
+/* --------------------------------------------------
+    [page error 6]
+---------------------------------------------------- */
+.error-v7 {
+  text-align: center;
+  padding: 60px 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.error-bg {
+  background: url(<%= image_path 'error/error-v7.jpg' %>) no-repeat scroll center center / cover;
+  padding-bottom: 230px;
+	padding-top: 80px;
+	ont-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header-404 {
+    z-index: 99;
+    background: #fff;
+    position: relative;
+    border-bottom: solid 2px #eee;
+}
+
+.error-v7 h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 30px;
+}
+.error-v7 .h1 {
+  color: #fff;
+  font-size: 280px;
+  line-height: 1;
+  font-weight: 300;
+  text-shadow: 2.828px 2.828px 4px rgba(0, 0, 0, 0.04);
+}
+/*For Mobile Devices*/
+@media (max-width: 600px){
+	.error-v7 .h1 {
+    font-size: 170px;
+	}
+}
+.error-v7 span.sorry {
+  color: #666;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 50px;
 }
 
 /* PREVIOUS BUTTON LIGHBOX */
