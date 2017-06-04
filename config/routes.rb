@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'pages#home'
+  get '*unmatched_route', :to => 'application#render_404'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

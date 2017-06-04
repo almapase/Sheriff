@@ -32,8 +32,17 @@
       ga('create', 'UA-100339925-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <main class="wrapper">
+      <!-- Header -->
+      <%= render 'common/header' %>
+      <!-- End Header -->
 
-    <%= yield %>
+      <%= yield %>
+
+      <!-- Footer -->
+      <%= render 'common/footer' %>
+      <!-- End Footer -->
+    </main>
 
     <%= javascript_include_tag 'home' %>
     <script>
