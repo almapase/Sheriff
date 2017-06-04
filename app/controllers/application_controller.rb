@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
 
   def render_404
     if params[:format].present? && params[:format] != 'html'
-      head status: 404
+      render 'application/404', status: 404
     else
       render 'application/404', status: 404
     end
